@@ -25,6 +25,11 @@ section button, label {
     border-radius: 15px;
 }
 
+section .contenedor {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 section button:hover {
     cursor: pointer;
     background-color: #bdc3c7;
